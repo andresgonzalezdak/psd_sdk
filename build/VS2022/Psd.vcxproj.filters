@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExport.cpp">
+      <Filter>Source Files\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdDecompressRle.cpp">
+      <Filter>Source Files\ImageUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdInterleave.cpp">
+      <Filter>Source Files\ImageUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLayerCanvasCopy.cpp">
+      <Filter>Source Files\ImageUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdAllocator.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdFile.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdMallocAllocator.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdNativeFile.cpp">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseColorModeDataSection.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseDocument.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseImageDataSection.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseImageResourcesSection.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseLayerMaskSection.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdBlendMode.cpp">
+      <Filter>Source Files\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdColorMode.cpp">
+      <Filter>Source Files\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdFixedSizeString.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSyncFileReader.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSyncFileWriter.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdminiz.c">
+      <Filter>Source Files\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\extension\PsdTextLayerUtils.cpp">
+      <Filter>Source Files\Ext</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdPch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExport.h">
+      <Filter>Source Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExportChannel.h">
+      <Filter>Source Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExportColorMode.h">
+      <Filter>Source Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExportDocument.h">
+      <Filter>Source Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExportLayer.h">
+      <Filter>Source Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdExportMetaDataAttribute.h">
+      <Filter>Source Files\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdDecompressRle.h">
+      <Filter>Source Files\ImageUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdInterleave.h">
+      <Filter>Source Files\ImageUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLayerCanvasCopy.h">
+      <Filter>Source Files\ImageUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdAllocator.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdFile.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdMallocAllocator.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdNativeFile.h">
+      <Filter>Source Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseColorModeDataSection.h">
+      <Filter>Source Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseDocument.h">
+      <Filter>Source Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseImageDataSection.h">
+      <Filter>Source Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseImageResourcesSection.h">
+      <Filter>Source Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdParseLayerMaskSection.h">
+      <Filter>Source Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdAssert.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdCompilerMacros.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLog.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdNamespace.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdPlatform.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdTypes.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdColorModeDataSection.h">
+      <Filter>Source Files\Sections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdImageDataSection.h">
+      <Filter>Source Files\Sections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdImageResourcesSection.h">
+      <Filter>Source Files\Sections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLayerMaskSection.h">
+      <Filter>Source Files\Sections</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdAlphaChannel.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdBlendMode.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdChannel.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdColorMode.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdCompressionType.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdDocument.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdImageResourceType.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLayer.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLayerMask.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdLayerType.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdPlanarImage.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSection.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdVectorMask.h">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdBitUtil.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdBitUtil.inl">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdEndianConversion.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdEndianConversion.inl">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdFixedSizeString.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdKey.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdMemoryUtil.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdMemoryUtil.inl">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSyncFileReader.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSyncFileUtil.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSyncFileUtil.inl">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdSyncFileWriter.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdUnionCast.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdUnionCast.inl">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdminiz.h">
+      <Filter>Source Files\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\extension\PsdTextLayerUtils.h">
+      <Filter>Source Files\Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psd.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdDocumentation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdinttypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdispod.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdisunsigned.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdPch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdstdint.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{30CC7BBF-0E32-3240-B6BC-F2DA9162BBD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exporter">
+      <UniqueIdentifier>{B76151CB-C1AF-3521-8094-C89F3DEE9969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ext">
+      <UniqueIdentifier>{F09A3A28-BCBC-375C-A821-A79CB5619594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageUtil">
+      <UniqueIdentifier>{91A6C2C8-F287-3448-9AA4-7DA818A9635E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interfaces">
+      <UniqueIdentifier>{1B372033-868B-371F-8D9F-6415063C5A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{D752AECA-C090-3068-8528-FDA541E6464E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{3B97CA6B-08F3-3722-8A7B-203DEF75FE90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sections">
+      <UniqueIdentifier>{38B2F9EC-A688-3A5D-896B-8B79E146863C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Types">
+      <UniqueIdentifier>{472957A6-7216-39E5-8E3A-0E2938488710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{CEF8BEC0-60E6-38F6-BB4C-10F293CDDF6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Zip">
+      <UniqueIdentifier>{937AF8F0-EDEA-3592-9A22-F1940131E316}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
