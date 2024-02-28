@@ -343,14 +343,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\PsdPch.cpp" />
     <ClInclude Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\src\Psd\Psdstdint.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:\Users\Andres\Desktop\Daktronics\psd_sdk_2\build\VS2022\ZERO_CHECK.vcxproj">
-      <Project>{BDBCE581-0B9F-3201-97DF-569E5783E843}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

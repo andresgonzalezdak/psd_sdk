@@ -1,3 +1,0 @@
-C:/Users/Andres/Desktop/Daktronics/psd_sdk_2/build/VS2022/CMakeFiles/Psd.dir
-C:/Users/Andres/Desktop/Daktronics/psd_sdk_2/build/VS2022/CMakeFiles/ALL_BUILD.dir
-C:/Users/Andres/Desktop/Daktronics/psd_sdk_2/build/VS2022/CMakeFiles/ZERO_CHECK.dir
