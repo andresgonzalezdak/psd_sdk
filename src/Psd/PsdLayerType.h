@@ -16,7 +16,8 @@ namespace layerType
 		ANY = 0,								///< Any other type of layer.
 		OPEN_FOLDER = 1,						///< Open folder.
 		CLOSED_FOLDER = 2,						///< Closed folder.
-		SECTION_DIVIDER = 3						///< Bounding section divider, hidden in the UI.
+		SECTION_DIVIDER = 3,					///< Bounding section divider, hidden in the UI.
+		TEXT = 4
 	};
 }
 

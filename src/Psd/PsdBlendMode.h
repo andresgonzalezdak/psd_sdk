@@ -3,7 +3,7 @@
 
 #pragma once
 
-
+#undef DIFFERENCE
 PSD_NAMESPACE_BEGIN
 
 /// \ingroup Types

@@ -4,6 +4,7 @@
 #pragma once
 
 #include "PsdFixedSizeString.h"
+#include "extension/PsdTextLayerUtils.h"
 
 
 PSD_NAMESPACE_BEGIN
@@ -42,6 +43,8 @@ struct Layer
 	uint32_t type;						///< The layer's type. Can be any of \ref layerType::Enum.
 	bool isVisible;						///< The layer's visibility.
 	bool isPassThrough;					///< If the layer is a pass-through group.
+
+	textLayers::TextLayerData* textData;
 };
 
 PSD_NAMESPACE_END

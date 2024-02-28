@@ -123,6 +123,11 @@ set(psd_source_zip
   Psdminiz.c
 )
 
+set(psd_source_ext
+  extension/PsdTextLayerUtils.h
+  extension/PsdTextLayerUtils.cpp
+)
+
 set(psd_source_
   Psd.h
   PsdDocumentation.h
@@ -144,6 +149,7 @@ set(psd_source
   ${psd_source_types}
   ${psd_source_util}
   ${psd_source_zip}
+  ${psd_source_ext}
   ${psd_source_}
 )
 
@@ -158,4 +164,5 @@ source_group("Source Files/Sections" FILES ${psd_source_sections})
 source_group("Source Files/Types" FILES ${psd_source_types})
 source_group("Source Files/Util" FILES ${psd_source_util})
 source_group("Source Files/Zip" FILES ${psd_source_zip})
+source_group("Source Files/Ext" FILES ${psd_source_ext})
 source_group("Source Files" FILES ${psd_source_})

@@ -27,6 +27,7 @@
 #include "PsdLog.h"
 #include <cstring>
 
+#include "extension/PsdTextLayerUtils.h"
 
 PSD_NAMESPACE_BEGIN
 
@@ -530,6 +531,8 @@ namespace
 				layer->type = layerType::ANY;
 				layer->isPassThrough = false;
 
+				textLayers::ResetCustomLayerData(layer);
+
 				layer->top = fileUtil::ReadFromFileBE<int32_t>(reader);
 				layer->left = fileUtil::ReadFromFileBE<int32_t>(reader);
 				layer->bottom = fileUtil::ReadFromFileBE<int32_t>(reader);
@@ -742,7 +745,7 @@ namespace
 					}
 					else
 					{
-						reader.Skip(length);
+						textLayers::ParseCustomProperties(length, key, layer, reader, allocator);
 					}
 
 					toRead -= 3*sizeof(uint32_t) + length;
@@ -1100,6 +1103,8 @@ void DestroyLayerMaskSection(LayerMaskSection*& section, Allocator* allocator)
 			allocator->Free(layer->vectorMask->data);
 		}
 		memoryUtil::Free(allocator, layer->vectorMask);
+
+		textLayers::DestroyAllocatedCustomData(layer, allocator);
 	}
 	memoryUtil::FreeArray(allocator, section->layers);
 	memoryUtil::Free(allocator, section);
