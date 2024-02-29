@@ -261,7 +261,7 @@ namespace textLayers
 		{
 			if (isTargetProperty)
 			{
-				uint64_t value = fileUtil::ReadFromFileBE<uint64_t>(reader);
+				float64_t value = fileUtil::ReadFromFileBE<float64_t>(reader);
 				newParentNode.longCallback(value);
 			}
 			else
@@ -328,7 +328,7 @@ namespace textLayers
 		{
 			if (isTargetProperty)
 			{
-				uint64_t value = fileUtil::ReadFromFileBE<uint64_t>(reader);
+				float64_t value = fileUtil::ReadFromFileBE<float64_t>(reader);
 				newParentNode.longCallback(value);
 			}
 			else
