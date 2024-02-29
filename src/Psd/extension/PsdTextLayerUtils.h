@@ -12,7 +12,7 @@ using namespace std;
 
 PSD_NAMESPACE_BEGIN
 
-class Layer;
+struct Layer;
 class Allocator;
 
 namespace textLayers

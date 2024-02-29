@@ -30,18 +30,18 @@ namespace imageUtil
 				return;
 			}
 
-			const uint8_t byte = *src++;
+			const uint8_t byteValue = *src++;
 			++bytesRead;
 
-			if (byte == 0x80)
+			if (byteValue == 0x80)
 			{
 				// byte == -128 (0x80) is a no-op
 			}
 			// 0x81 - 0XFF
-			else if (byte > 0x80)
+			else if (byteValue > 0x80)
 			{
 				// next 257-byte bytes are replicated from the next source byte
-				const unsigned int count = static_cast<unsigned int>(257 - byte);
+				const unsigned int count = static_cast<unsigned int>(257 - byteValue);
 
 				memset(dest + offset, *src++, count);
 				offset += count;
@@ -52,7 +52,7 @@ namespace imageUtil
 			else
 			{
 				// copy next byte+1 bytes 1-by-1
-				const unsigned int count = static_cast<unsigned int>(byte + 1);
+				const unsigned int count = static_cast<unsigned int>(byteValue + 1);
 				
 				memcpy(dest + offset, src, count);
 
