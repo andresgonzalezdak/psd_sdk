@@ -8,8 +8,6 @@
 #include <unordered_map>
 #include <functional>
 
-using namespace std;
-
 PSD_NAMESPACE_BEGIN
 
 struct Layer;
@@ -17,6 +15,8 @@ class Allocator;
 
 namespace textLayers
 {
+	using namespace std;
+
 	enum JUSTIFICATION_TYPE : int8_t
 	{
 		JUST_RIGHT = 0,

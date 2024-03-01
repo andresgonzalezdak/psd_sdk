@@ -373,13 +373,6 @@ namespace textLayers
 		layerData->fontColor[2] = -1.f;
 		layerData->fontColor[3] = 1.f;
 
-		layerData->transform[0] = 1.f;
-		layerData->transform[1] = 0.f;
-		layerData->transform[2] = 0.f;
-		layerData->transform[3] = 1.f;
-		layerData->transform[4] = 0.f;
-		layerData->transform[5] = 0.f;
-
 		layerData->fontSize = -1.f;
 		layerData->leading = -1.f;
 		layerData->baseline = -1.f;
